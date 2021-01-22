@@ -13,8 +13,9 @@
 
 （如果安装过程中出现 `package` 或 `import` 字样的错误提示，那么说明依赖库的导入路径又挂了。这时请猛戳 @OlingCat 并督促其解决= =||）
 
-> 注：如果在 bin 目录下执行 tour 报错 "Couldn't find tour files: could not find go-tour content; check $GOROOT and $GOPATH"，需要切换到源码目录下执行 tour。
-> 譬如执行 cd $GOPATH/src/golang.org/x/tools/ && $GOPATH/bin/tour
+> 注：如果在 bin 目录下执行 tour 报错 `Couldn't find tour files: could not find go-tour content; check $GOROOT and $GOPATH`，需要切换到源码目录下执行 tour。
+
+	$ cd $GOPATH/src/golang.org/x/tools/ && $GOPATH/bin/tour
 
 ## 贡献方式
 
